@@ -1,0 +1,8 @@
+*.cmd
+*.o
+*.ko
+*.order
+*.mod
+modules.order
+wlan.ko
+.tmp_versions/*

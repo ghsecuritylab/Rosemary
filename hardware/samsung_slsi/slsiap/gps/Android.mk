@@ -1,0 +1,25 @@
+ifeq ($(BOARD_HAS_GPS),true)
+
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+ifeq ($(strip $(TARGET_ARCH)),arm)
+LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
+else
+LOCAL_MODULE_RELATIVE_PATH := hw
+endif
+
+LOCAL_C_INCLUDES += \
+	$(LOCAL_PATH)/../include
+
+LOCAL_SRC_FILES := gps.c
+
+LOCAL_SHARED_LIBRARIES := liblog libcutils libhardware
+LOCAL_STATIC_LIBRARIES := libgps-$(TARGET_BOOTLOADER_BOARD_NAME)
+
+LOCAL_MODULE := gps.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_SHARED_LIBRARY)
+
+endif
