@@ -1,0 +1,4 @@
+#!/bin/sh
+
+insmod /root/nx_vpu.ko
+insmod /root/vr.ko

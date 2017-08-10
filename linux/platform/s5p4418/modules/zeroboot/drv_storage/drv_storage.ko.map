@@ -1,0 +1,171 @@
+
+Discarded input sections
+
+ .debug_info    0x0000000000000000     0x1600 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+ .debug_abbrev  0x0000000000000000      0x20d /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+ .debug_aranges
+                0x0000000000000000       0x18 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+ .debug_line    0x0000000000000000      0x282 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+ .debug_str     0x0000000000000000     0x1201 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x2274
+ .text          0x0000000000000000     0x2274 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+                0x00000000000010dc                mmc_create_test_command_proc
+                0x0000000000001110                v7_outer_cache_flush_all
+                0x0000000000001114                flush_dcache_all
+                0x00000000000011cc                dma_read_dirty
+                0x0000000000001238                mmc_set_clock
+                0x0000000000001240                mmc_send_op_cond
+                0x00000000000012b4                mmc_complete_op_cond
+                0x0000000000001328                mmc_start_init
+                0x0000000000001394                mmc_card_bringup
+                0x0000000000001938                zb_dwmci_init_by_retry
+                0x0000000000001aa4                zb_dwmci_wait_lock
+                0x0000000000001ab0                zb_dwmci_wait_unlock
+                0x0000000000001abc                find_page_in_buffer_memory
+                0x0000000000001ad4                reload_buffer_memory
+                0x0000000000001b10                mmc_test_write
+                0x0000000000001ba0                mmc_read_test
+                0x0000000000001c50                mmc_test
+                0x0000000000001df8                zb_storage_init
+                0x000000000000222c                zb_storage_exit
+ .text          0x0000000000002274        0x0 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+.init.text      0x0000000000000000       0x38
+ .init.text     0x0000000000000000       0x38 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+                0x0000000000000000                init_module
+
+.exit.text      0x0000000000000000       0x18
+ .exit.text     0x0000000000000000       0x18 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+                0x0000000000000000                cleanup_module
+
+.rodata         0x0000000000000000       0x94
+ .rodata        0x0000000000000000       0x94 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.ARM.extab.init.text
+                0x0000000000000000        0x0
+ .ARM.extab.init.text
+                0x0000000000000000        0x0 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.ARM.exidx.init.text
+                0x0000000000000000        0x8
+ .ARM.exidx.init.text
+                0x0000000000000000        0x8 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.ARM.extab.exit.text
+                0x0000000000000000        0xc
+ .ARM.extab.exit.text
+                0x0000000000000000        0xc /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.ARM.exidx.exit.text
+                0x0000000000000000        0x8
+ .ARM.exidx.exit.text
+                0x0000000000000000        0x8 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.modinfo        0x0000000000000000       0x68
+ .modinfo       0x0000000000000000       0x28 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+ .modinfo       0x0000000000000028       0x40 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+.rodata.str1.4  0x0000000000000000      0x7e8
+ .rodata.str1.4
+                0x0000000000000000      0x7e8 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.ARM.extab      0x0000000000000000       0x18
+ .ARM.extab     0x0000000000000000       0x18 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.data           0x0000000000000000       0x18
+ .data          0x0000000000000000       0x18 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+ .data          0x0000000000000018        0x0 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+.gnu.linkonce.this_module
+                0x0000000000000000      0x168
+ .gnu.linkonce.this_module
+                0x0000000000000000      0x168 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+                0x0000000000000000                __this_module
+
+.ARM.exidx      0x0000000000000000      0x128
+ .ARM.exidx     0x0000000000000000      0x128 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+
+.note.gnu.build-id
+                0x0000000000000000       0x24
+ .note.gnu.build-id
+                0x0000000000000000       0x24 linker stubs
+
+.bss            0x0000000000000000      0x30c
+ .bss           0x0000000000000000      0x30c /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+                0x0000000000000000                gContinue
+                0x0000000000000004                mmc_dirtry_check_regs_zero
+                0x000000000000003c                gNeed_init_sd_clock
+                0x0000000000000040                mmc_dirtry_check_regs_cur
+                0x0000000000000078                collision_flag
+                0x00000000000002c0                mmc_backup_regs
+                0x00000000000002fc                holded_page_index_table
+                0x0000000000000300                zb_mmc
+                0x0000000000000304                g_th_id
+                0x0000000000000308                BUF_STORAGE_ACCESS
+ .bss           0x000000000000030c        0x0 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+/DISCARD/
+ *(.discard)
+
+__ksymtab
+ *(SORT(___ksymtab+*))
+
+__ksymtab_gpl
+ *(SORT(___ksymtab_gpl+*))
+
+__ksymtab_unused
+ *(SORT(___ksymtab_unused+*))
+
+__ksymtab_unused_gpl
+ *(SORT(___ksymtab_unused_gpl+*))
+
+__ksymtab_gpl_future
+ *(SORT(___ksymtab_gpl_future+*))
+
+__kcrctab
+ *(SORT(___kcrctab+*))
+
+__kcrctab_gpl
+ *(SORT(___kcrctab_gpl+*))
+
+__kcrctab_unused
+ *(SORT(___kcrctab_unused+*))
+
+__kcrctab_unused_gpl
+ *(SORT(___kcrctab_unused_gpl+*))
+
+__kcrctab_gpl_future
+ *(SORT(___kcrctab_gpl_future+*))
+LOAD /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+LOAD /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+OUTPUT(/home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.ko elf32-littlearm)
+
+.comment        0x0000000000000000       0x30
+ .comment       0x0000000000000000       0x20 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+ .comment       0x0000000000000020       0x10 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x33 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.o
+ .ARM.attributes
+                0x0000000000000033       0x33 /home/falinux/work/git/lollipop-avn-4418/linux/platform/s5p4418/modules/zeroboot-nxp4418/drv_storage/drv_storage.mod.o
+
+.debug_info
+
+.debug_abbrev
+
+.debug_aranges
+
+.debug_line
+
+.debug_str

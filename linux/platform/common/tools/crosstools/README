@@ -1,0 +1,22 @@
+This is for nexell linux Crosstools (ARM)
+
+	1. make "crosstools" directory in "/opt"
+
+	2. change directory permission "chmod 666 /opt/crosstools"
+
+	3. uncompress arm-cortex_a9-eabi-4.7-eglibc-2.18.tar.gz in "/opt/crosstools"
+
+	4. set crosstools PATH in shell or in '.bashrc'
+		-> export PATH=$PATH:/opt/crosstools/arm-cortex_a9-eabi-4.7-eglibc-2.18/bin
+
+This is for nexell linux Crosstools (ARM64)
+
+	1. make "crosstools" directory in "/opt"
+
+	2. change directory permission "chmod 666 /opt/crosstools"
+
+	3. uncompress gcc-linaro-4.9-2014.11-x86_64_aarch64-linux-gnu.tar.gz in "/opt/crosstools"
+
+	4. set crosstools PATH in shell or in '.bashrc'
+		-> export PATH=$PATH:/opt/crosstools/gcc-linaro-4.9-2014.11-x86_64_aarch64-linux-gnu/bin
+		
