@@ -1,0 +1,2 @@
+add_lunch_combo aosp_lepus-userdebug
+#add_lunch_combo full_lepus-userdebug
