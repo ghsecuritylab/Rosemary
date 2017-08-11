@@ -1,0 +1,10 @@
+external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2.zip filter=lfs diff=lfs merge=lfs -text
+linux/platform/common/tools/crosstools/arm-cortex_a9-eabi-4.7-eglibc-2.18.tar.gz filter=lfs diff=lfs merge=lfs -text
+linux/platform/common/tools/crosstools/gcc-linaro-4.9-2014.11-x86_64_aarch64-linux-gnu.tar.gz filter=lfs diff=lfs merge=lfs -text
+linux/platform/common/tools/crosstools/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf.tar.xz filter=lfs diff=lfs merge=lfs -text
+prebuilts/clang/linux-x86/host/3.4/bin/clang filter=lfs diff=lfs merge=lfs -text
+prebuilts/eclipse/platform/org.eclipse.platform-3.7.2.zip filter=lfs diff=lfs merge=lfs -text
+prebuilts/qemu-kernel/x86_64/vmlinux-qemu filter=lfs diff=lfs merge=lfs -text
+prebuilts/sdk/tools/windows/libLLVM.dll filter=lfs diff=lfs merge=lfs -text
+prebuilts/sdk/tools/windows/libclang.dll filter=lfs diff=lfs merge=lfs -text
+
